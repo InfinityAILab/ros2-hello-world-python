@@ -1,0 +1,38 @@
+[1.333s] Invoking command in '/home/sarmad/workspaces/hello_world/src/my_py_pubsub': PYTHONPATH=/home/sarmad/workspaces/hello_world/build/my_py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pubsub build --build-base /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build install --record /home/sarmad/workspaces/hello_world/build/my_py_pubsub/install.log --single-version-externally-managed install_data
+[1.862s] running egg_info
+[1.863s] writing ../../build/my_py_pubsub/my_py_pubsub.egg-info/PKG-INFO
+[1.864s] writing dependency_links to ../../build/my_py_pubsub/my_py_pubsub.egg-info/dependency_links.txt
+[1.864s] writing entry points to ../../build/my_py_pubsub/my_py_pubsub.egg-info/entry_points.txt
+[1.864s] writing requirements to ../../build/my_py_pubsub/my_py_pubsub.egg-info/requires.txt
+[1.864s] writing top-level names to ../../build/my_py_pubsub/my_py_pubsub.egg-info/top_level.txt
+[1.868s] reading manifest file '../../build/my_py_pubsub/my_py_pubsub.egg-info/SOURCES.txt'
+[1.870s] writing manifest file '../../build/my_py_pubsub/my_py_pubsub.egg-info/SOURCES.txt'
+[1.870s] running build
+[1.870s] running build_py
+[1.871s] copying my_py_pubsub/listener.py -> /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build/lib/my_py_pubsub
+[1.871s] copying my_py_pubsub/talker.py -> /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build/lib/my_py_pubsub
+[1.872s] running install
+[1.872s] running install_lib
+[1.874s] copying /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build/lib/my_py_pubsub/listener.py -> /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub
+[1.874s] copying /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build/lib/my_py_pubsub/talker.py -> /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub
+[1.876s] byte-compiling /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub/listener.py to listener.cpython-310.pyc
+[1.877s]   File "/home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub/listener.py", line 25
+[1.877s]     if __name__ = "__main__":
+[1.877s]        ^^^^^^^^^^^^^^^^^^^^^
+[1.877s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[1.877s] 
+[1.878s] byte-compiling /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub/talker.py to talker.cpython-310.pyc
+[1.878s] running install_data
+[1.878s]   File "/home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub/talker.py", line 30
+[1.878s]     if __name__ = "__main__":
+[1.878s]        ^^^^^^^^^^^^^^^^^^^^^
+[1.878s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[1.878s] 
+[1.879s] running install_egg_info
+[1.882s] removing '/home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.882s] Copying ../../build/my_py_pubsub/my_py_pubsub.egg-info to /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages/my_py_pubsub-0.0.0-py3.10.egg-info
+[1.884s] running install_scripts
+[1.930s] Installing listener script to /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/my_py_pubsub
+[1.930s] Installing talker script to /home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/my_py_pubsub
+[1.931s] writing list of installed files to '/home/sarmad/workspaces/hello_world/build/my_py_pubsub/install.log'
+[1.999s] Invoked command in '/home/sarmad/workspaces/hello_world/src/my_py_pubsub' returned '0': PYTHONPATH=/home/sarmad/workspaces/hello_world/build/my_py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sarmad/workspaces/hello_world/install/my_py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pubsub build --build-base /home/sarmad/workspaces/hello_world/build/my_py_pubsub/build install --record /home/sarmad/workspaces/hello_world/build/my_py_pubsub/install.log --single-version-externally-managed install_data
